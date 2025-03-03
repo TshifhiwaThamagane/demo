@@ -106,6 +106,9 @@ nav ul il a {
           transition: background 0.3s ease;
 }
 
+nav ul li a:visited {
+    text-decoration: none
+}
 .Welcome{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top : 10%;

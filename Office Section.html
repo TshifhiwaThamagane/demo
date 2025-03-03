@@ -1,41 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <meta name="description" content="This website offers the most exclusive furniture">
-    <meta name="keywords" content="Furniture, Couch, Tables, Luxury Furniture">
-    <meta name="author" content="Tshifhiwa Thamagane, Tshepang Ramohapi">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "description"   content = "This website will help you view the Dining Section">
+    <meta name = "keywords" content = "exclusive furniture">
+    <meta name ="author" content ="Tshifhiwa Thamagane">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
-    <title>Exclusive Furniture</title>
+    <title>Dining Section</title>
+
     <script> 
-        function displayDate() {
-            document.getElementById("showDate").innerHTML = new Date();
+        function displayDate(){
+    document.getElementById("showDate").innerHTML=
+    Date();
+    
         }
     </script>
+</head>
     <style>
-
-        a {  text-decoration: none; 
-         }
-        
-        header {
-            background-color: #bab554;
+       
+       header {
+            background-color:#bab554;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
         nav {
-            background-color: black;
-            padding: 20px 0;
-            text-align: center;
+            background-color: rgb(0, 0, 0);
+            padding: 15px 0;
         }
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
@@ -45,9 +48,9 @@
             color: white;
             text-decoration: none;
             font-size: 16px;
-            transition: background 0.3s
         }
         .hero {
+          
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -57,39 +60,63 @@
             align-items: center;
             text-align: center;
         }
-        .hero h1, .hero h2 {
+        .hero h1 {
             font-size: 50px;
+        }
+            .hero h2 {
+            font-size: 50px;
+
+
         }
         .content {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
-            text-align: center;
+        }
+        .partners img {
+            width: 150px;
+            margin: 10px;
         }
         footer {
-            background-color: #bab554;
+            background-color:#bab554;
             color: white;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
         }
+        .donation-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
     </style>
 </head>
-<body>
+
+ 
+    <!-- Header -->
     <header>
-        <h1>DEMO!!!!!</h1>
-       
+        <h1>K&K ITALIAN CRAFT FURNITURE</h1>
+        <p>Come get your finest and exclusive furniture with us!</p>
     </header>
-    <nav>
-        <ul>
-            <li><b><a href="Homepage.html">Home</a></b></li>
-            <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
-        </ul>
+    
+    <!-- Navigation -->
+        <nav>
+    <ul>
+        <li><b><a href="Homepage.html">Home</a></b></li>
+        <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
+    </ul>
     </nav>
-    <video autoplay muted loop id="myVideo" width="100%">
+
+
+    <body><video autoplay muted loop id="myVideo" height="855">
         <source src="Hate.mp4" type="video/mp4">
-    </video>
-    <div class="content">
+       
+      </video>
+      <div class="content">
         
       </div>
 
@@ -98,13 +125,13 @@
         <center><div class = "Welcome">
             <div class = "Welcome">
    
-                <center><h1 class = "anim"><ul>Welcome to the Office Section
+                <h1>Welcome to the Dining Section</h1>
                     
-                </ul>Scroll to see what your style is!</h1>
+                <h1>Scroll to see what your style is!</h1>
           	
-                <p class = "anim">We have sell furniture from around the world making our furniture exclusive!</p>
+                    <p class = "anim">We have sell furniture from around the world making our furniture exclusive!</p>
                    
- </div>
+    </div>
 </div>
 </div>
 </div>
@@ -114,34 +141,36 @@
 
 <br></br>
 
-
-
-
-<div class="Section">
-    <center><img src = "office section.jpg" height="30" width="300"> <h1>Office Section</h1></a></center>
-</div>
+<center>
+    <div class="Section">
+    <center><img src = "dining.jpg" height="30" width="300"> <h1>Dining Section</h1></a></center>
+    </div>
     <hr width="400">
-    <center><h2 class = seletc > Select The Image To View</h2></center>
-    <div class = "About">
-    <div class = "card-container">
+    
+
+<div class = "About">
+<div class = "card-container">
+     
+<div class = "card-container">
     <div class = "card">
       <a href="Senator Office Set.jpg" data-lightbox="White Bed"><img class ="img_ww" src = "Senator Office Set.jpg" width = "30%" height="30%"></a>
       
       <div class ="card-content">
       <h3> Senator Office </h3>
       <p> The wavy, contoured marble top exudes sophistication with its polished finish in warm beige and cream tones.
+        
     
-</div>
-</div>
-</div>
-</div>
-         
-    <footer>
-        <button type="button" onclick="displayDate()">Today's Date</button>
-        <p id="showDate"></p>
-        <p>&copy; 2025 IKEA FURNITURES - K&K ITALIAN CRAFT | All Rights Reserved</p>
-        <p><a href="#top">Back to top</a></p>
-        <a href="Contact Us.html" class="Contact">Click here to contact us</a>
-    </footer>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 IKEA FURNITURES - K&K ITALIAN CRAFT | All Rights Reserved</p>
+    <p><a href="Contact Us.html">Back to top</a></p>
+    <p><a href="Homepage.html">Go home</a></p>
+</footer>
 </body>
+
+
+
+
+
 </html>

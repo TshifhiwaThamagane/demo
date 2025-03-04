@@ -47,6 +47,25 @@
             font-size: 16px;
             transition: background 0.3s
         }
+
+        ul li ul.dropdown li{
+    display:block;
+
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+        }
+        ul li a:hover{
+            background: #404144;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+        }
+
+        
         .hero {
             background-size: cover;
             background-position: center;
@@ -81,10 +100,21 @@
        
     </header>
     <nav>
-        <ul>
-            <li><b><a href="Homepage.html">Home</a></b></li>
-            <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
-        </ul>
+    <ul>
+        <li><b><a href="Homepage.html">Home</a></b></li>
+      
+        <li>
+            <b><a href="Homepage.html">Shop Now ▼ </a></b>
+            <ul class = "dropdown">
+            <li><a href ="Bedroom Section.html">BEDROOM AREA</a></li>
+            <li><a href ="Lounge Section.html">LOUNGE AREA</a></li>
+            <li><a href ="Dining section.html">DINING AREA</a></li>
+            <li><a href ="Office Section.html">OFFICE AREA</a></li>
+            <li><a href ="Kitchen Section.html">KITCHEN AREA</a></li>
+            </ul>
+        </li>
+        <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
+    </ul>
     </nav>
     <video autoplay muted loop id="myVideo" width="100%">
         <source src="Hate.mp4" type="video/mp4">

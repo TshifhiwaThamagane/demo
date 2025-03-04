@@ -1,54 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <meta name="description" content="This website offers the most exclusive furniture">
-    <meta name="keywords" content="Furniture, Couch, Tables, Luxury Furniture">
-    <meta name="author" content="Tshifhiwa Thamagane, Tshepang Ramohapi">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style.css?v=2">
-    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <meta name = "description"   content = "This website is about car washes partnering with organizations wereby if you donate you receive a free car wash">
+    <meta name = "keywords" content = "Furniture,Couch, Tables ,Luxury furn">
+<meta name ="author" content ="Tshifhiwa Thamagane x Tshepang Ramohapi">
+<meta http-equiv="refresh" content="never"; url = http://www.google.com>
+    <meta name ="viewport" content= "width=device-width, initial-scale=1">
+    <link rel= "stylesheet" href="style.css"></head>
     <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <title>Exclusive Furniture</title>
+
+
+    
+
+
     <script> 
-        function displayDate() {
-            document.getElementById("showDate").innerHTML = new Date();
+        function displayDate(){
+    document.getElementById("showDate").innerHTML=
+    Date();
+    
         }
     </script>
+</head>
     <style>
-
-        a {  text-decoration: none; 
-         }
-        
-        header {
-            background-color: #bab554;
+       
+       header {
+            background-color:#bab554;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
         nav {
-            background-color: black;
-            padding: 20px 0;
-            text-align: center;
+            background-color: rgb(0, 0, 0);
+            padding: 30px;
+          
         }
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            text-align: center;
         }
         nav ul li {
-            display: inline;
+            display: inline-block;
             margin: 0 15px;
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
         }
         nav ul li a {
             color: white;
             text-decoration: none;
-            font-size: 16px;
-            transition: background 0.3s
+            display: block;
+            padding: 20px 25px;
+            text-align: center;
+            
         }
-
-        ul li ul.dropdown li{
+            ul li ul.dropdown li{
     display:block;
 
 }
@@ -65,8 +75,8 @@ ul li ul.dropdown{
             display: block;
         }
 
-        
         .hero {
+          
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -76,36 +86,57 @@ ul li ul.dropdown{
             align-items: center;
             text-align: center;
         }
-        .hero h1, .hero h2 {
+        .hero h1 {
             font-size: 50px;
+        }
+            .hero h2 {
+            font-size: 50px;
+
+
         }
         .content {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
-            text-align: center;
+        }
+        .partners img {
+            width: 150px;
+            margin: 10px;
         }
         footer {
-            background-color: #bab554;
+            background-color:#bab554;
             color: white;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
         }
+        .donation-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
     </style>
 </head>
-<body>
+
+ 
+    <!-- Header -->
     <header>
-        <h1>TEST!!!!!</h1>
-       
+        <h1> IKEA FURNITURES</h1>
+        <p>Come get your finest and exclusive furniture with us!</p>
     </header>
-    <nav>
+    
+    <!-- Navigation -->
+        <nav>
     <ul>
         <li><b><a href="Homepage.html">Home</a></b></li>
       
         <li>
             <b><a href="Homepage.html">Shop Now ▼ </a></b>
-            <ul class = "dropdown">
+        <ul class = "dropdown">
             <li><a href ="Bedroom Section.html">BEDROOM AREA</a></li>
             <li><a href ="Lounge Section.html">LOUNGE AREA</a></li>
             <li><a href ="Dining section.html">DINING AREA</a></li>
@@ -116,21 +147,32 @@ ul li ul.dropdown{
         <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
     </ul>
     </nav>
-    <video autoplay muted loop id="myVideo" width="100%">
-        <source src="Hate.mp4" type="video/mp4">
-    </video>
-    <div class="content">
 
-    </div>
-  <div class="hero" id="home">
+
+    <body><video autoplay muted loop id="myVideo" height="855">
+        <source src="Hate.mp4" type="video/mp4">
+       
+      </video>
+      <div class="content">
+        
+      </div>
+
+    <!-- Hero Section -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="hero" id="home">
         <center><div class = "Welcome">
             <div class = "Welcome">
    
-                <h1>Welcome to the Dining Section</h1>
-                    
-                <h1>Scroll to see what your style is!</h1>
-          	
+                <center><h1 class = "anim"><ul>Welcome to IKEA FURNITURES.</h1>
                     <p class = "anim">We have sell furniture from around the world making our furniture exclusive!</p>
+                    
+               <h1> </ul>Which section are you interested in?</h1>
+          	
+                  
                    
     </div>
 </div>
@@ -138,38 +180,35 @@ ul li ul.dropdown{
 </div>
 </body>
 
-    <br></br>
+<br></br>
 
-    <center>
-    <div class="Section">
-    <center><img src = "dining.jpg" height="30" width="300"> <h1>Dining Section</h1></a></center>
-    </div>
-    <hr width="300">
-    
+<br></br>
 
-<div class = "About">
-<div class = "card-container">
 
-    <div class = "card">
-            <a href="photo 1.jpg" data-lightbox="Expuisite Table Chairs"><img class ="img_ww" src = "photo 1.jpg" width = "50%" height="50%"></a>
-            <div class ="card-content">
-            <h3>Expuisite Table and Chairs</h3>
-            <p>Step into a world of luxury and sophistication with this exquisite furniture set, designed to make a lasting impression. 
-                
-    
-</div>
-</div>
-</div>
-</div>
+<center><a href="Lounge Section.html">   <center><img src = "living room.jpg" height="30" width="500"> </a><h1>Lounge Section</h1></center>
+    <center><a href="Bedroom Section.html">  <center><img src = "bedroom.jpg" height="30" width="500"></a> <h1>Bedroom Section</h1></a></center>
+    <center><a href="Dining section.html">   <center><img src = "diningarea.jpg" height="30" width="500"> </a><h1>Dining  Section</h1></center>
+    <center><a href="Kitchen Section.html">  <center><img src = "kitchen.jpeg" height="30" width="500"></a> <h1>Kitchen Section</h1></a></center>
+    <center><a href="Office Section.html">   <center><img src = "office section.jpg" height="30" width="500"> </a><h1>Office Section</h1></center>
+   
+
+
+
 </center>
 
-    
-<footer>
-        <button type="button" onclick="displayDate()">Today's Date</button>
-        <p id="showDate"></p>
-        <p>&copy; 2025 IKEA FURNITURES - K&K ITALIAN CRAFT | All Rights Reserved</p>
-        <p><a href="#top">Back to top</a></p>
-        <a href="Contact Us.html" class="Contact">Click here to contact us</a>
+
+    <!-- Footer -->
+   
+    <footer>
+
+        <center><button type = "button" onclick="displayDate()">Todays Date </button></center>
+<p id ="showDate"></p>
+        <p>&copy; 2025 IKEA FURNITURES | All Rights Reserved</p>
+        <p><a href="#home">Back to top</a></p>
+        <center><a href="Contact Us.html" class="Contact">Click here to contact us</a></center>
     </footer>
-</body>
+
+
+
+
 </html>
